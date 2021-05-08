@@ -12,18 +12,28 @@
 
 header {
     background-color: var(--dark);
-    padding: 24px 77px 24px 77px;
+    padding: 6px 77px 15px 0px;
     display:flex;
     justify-content: space-between;
     align-items: center;
 }
 
-nav {
-    display: flex;
-    justify-content: space-between;
+header h1 {
+    background-color: var(--aqua);
+    padding: 8px 14px 8px 77px;
+    color: var(--dark);
 }
 
 h1 {
     font-weight: bold;
     font-size: 40px;
 } 
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    text-decoration: none;
+}
