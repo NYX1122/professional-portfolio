@@ -12,7 +12,7 @@
 
 header {
     background-color: var(--dark);
-    padding: 6px 77px 15px 0px;
+    padding: 9px 115px 22.5px 0px;
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -20,20 +20,30 @@ header {
 
 header h1 {
     background-color: var(--aqua);
-    padding: 8px 14px 8px 77px;
+    padding: 12px 21px 12px 115px;
     color: var(--dark);
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    font-size: 32px;
+    color: var(--aqua);
+    margin-left: 45px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 9px;
+    border-bottom: solid 6px;
 }
 
 h1 {
     font-weight: bold;
-    font-size: 40px;
+    font-size: 60px;
 } 
 
-nav {
-    display: flex;
-    justify-content: space-between;
-}
 
-nav a {
-    text-decoration: none;
-}
