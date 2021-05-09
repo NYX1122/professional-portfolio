@@ -1,6 +1,7 @@
 :root {
     --dark:#31343d;
     --aqua: #92cccd;
+    --navy: #445877;
 }
 
 * {
@@ -35,9 +36,7 @@ header nav ul li a {
     font-size: 32px;
     color: var(--aqua);
     margin-left: 45px;
-    padding-right: 15px;
-    padding-left: 15px;
-    padding-bottom: 9px;
+    padding: 0 15px 9px 15px;
     border-bottom: solid 6px;
 }
 
@@ -52,13 +51,39 @@ h1 {
     justify-content: flex-end;
 }
 
-.banner h2 {
+.banner h3 {
     display: block;
     font-size: 42px;
     color: var(--dark);
     background-color: var(--aqua);
     padding: 12px 12px 12px 18px;
-    margin-right: 121.5px;
-    margin-top: 138px;
-    margin-bottom: 36px;
+    margin: 181.5px 121.5px 33px 0;
+}
+
+.about, .work, .contact {
+    margin: 52.5px 120px 0 180px;
+    display: flex;
+}
+
+h2 {
+    font-size: 60px;
+    color: var(--navy);
+    border-right: solid 4px;
+    margin-right: 45px;
+    padding-right: 17px;
+    text-align: right;
+}
+
+.about h2 {
+    padding-bottom: 65px;
+}
+
+.about article {
+    font-size: 19.5px;
+    line-height: 27px;
+    color: var(--navy);
+}
+
+.about article p {
+    margin-bottom: 30px;
 }
