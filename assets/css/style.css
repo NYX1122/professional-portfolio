@@ -2,6 +2,7 @@
     --dark:#31343d;
     --aqua: #92cccd;
     --navy: #445877;
+    --gray: #31343e;
 }
 
 * {
@@ -86,4 +87,60 @@ h2 {
 
 .about article p {
     margin-bottom: 30px;
+}
+
+.work div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.surf {
+    background-image: url(../images/placeholder-image.jpg);
+    background-size: cover;
+    padding-top: 475px;
+    padding-bottom: 50px;
+    padding-right: 1200px;
+    border: solid 8px var(--aqua);
+    margin-bottom: 30px;
+}
+
+h4 {
+    font-size: 35px;
+    color: var(--gray);
+    background-color: var(--aqua);
+    padding-top: 12px;
+    padding-left: 11px;
+    padding-right: 11px;
+    padding-bottom: 8px;
+    max-width: 215px;
+}
+
+h5 {
+    font-size: 20px;
+    color: var(--gray);
+    background-color: var(--aqua);
+    padding-left: 11px;
+    padding-bottom: 15px;
+    max-width: 215px;
+}
+
+.small-guys {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.small-guys a {
+    background-image: url(../images/placeholder-image.jpg);
+    background-size: cover;
+    padding-top: 237.5px;
+    padding-right: 145px;
+    padding-bottom: 50px;
+    width: 49.1%;
+    height: 48.1%;
+    border: solid 8px var(--aqua);
+}
+
+.small-guys .run-buddy {
+    background-image: url(../images/run-buddy.jpg);
 }
