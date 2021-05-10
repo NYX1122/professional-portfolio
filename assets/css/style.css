@@ -61,9 +61,10 @@ h1 {
     margin: 181.5px 121.5px 33px 0;
 }
 
-.about, .work, .contact {
-    margin: 52.5px 120px 0 180px;
+.about, .work, footer {
     display: flex;
+    margin-bottom: 100px;
+    margin-left: 10%;
 }
 
 h2 {
@@ -73,6 +74,11 @@ h2 {
     margin-right: 45px;
     padding-right: 17px;
     text-align: right;
+}
+
+.about {
+    margin-top: 100px;
+    margin-right: 120px;
 }
 
 .about h2 {
@@ -95,7 +101,7 @@ h2 {
 }
 
 .surf {
-    background-image: url(../images/placeholder-image.jpg);
+    background-image: linear-gradient(rgba(146,204,205,.5), rgba(146,204,205,.5)), url(../images/placeholder-image.jpg);
     background-size: cover;
     padding-top: 475px;
     padding-bottom: 50px;
@@ -131,7 +137,7 @@ h5 {
 }
 
 .small-guys a {
-    background-image: url(../images/placeholder-image.jpg);
+    background-image: linear-gradient(rgba(146,204,205,.5), rgba(146,204,205,.5)), url(../images/placeholder-image.jpg);
     background-size: cover;
     padding-top: 237.5px;
     padding-right: 145px;
@@ -142,5 +148,32 @@ h5 {
 }
 
 .small-guys .run-buddy {
-    background-image: url(../images/run-buddy.jpg);
+    background-image: linear-gradient(rgba(146,204,205,.5), rgba(146,204,205,.5)), url(../images/run-buddy.jpg);
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer h2 {
+    padding-bottom: 2px;
+    margin-bottom: 10px;
+    width: 15%;
+}
+
+footer ul {
+    width: 85%;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer ul li {
+    font-size: 25px;
+    margin-left: 45px;
+    padding-bottom: 7px;
+    border-bottom: solid 6px var(--navy);
+    text-decoration: none;
 }
