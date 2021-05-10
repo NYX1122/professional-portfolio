@@ -10,6 +10,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Trebuchet MS";
+    text-decoration: none;
 }
 
 header {
@@ -176,4 +177,20 @@ footer ul li {
     padding-bottom: 7px;
     border-bottom: solid 6px var(--navy);
     text-decoration: none;
+}
+
+footer ul li a {
+    color: black;
+}
+
+.surf:hover {
+    background-image: url(../images/placeholder-image.jpg);
+}
+
+.small-guys a:hover {
+    background-image: url(../images/placeholder-image.jpg);
+}
+
+.small-guys .run-buddy:hover {
+background-image: url(../images/run-buddy.jpg);
 }
