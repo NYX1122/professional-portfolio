@@ -50,7 +50,7 @@ h1 {
 .banner {
     background-image: url("../images/blue-wood-background.jpg");
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
 }
 
 .banner h3 {
@@ -60,6 +60,13 @@ h1 {
     background-color: var(--aqua);
     padding: 12px 12px 12px 18px;
     margin: 181.5px 121.5px 33px 0;
+}
+
+.banner img {
+    width:300px;
+    height:300px;
+    margin-left: 150px;
+    border: solid 2px var(--aqua);
 }
 
 .about, .work, footer {
