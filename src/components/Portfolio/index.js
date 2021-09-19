@@ -12,6 +12,21 @@ function Portfolio() {
             name: 'TechBlog',
             link: 'https://peaceful-hamlet-37856.herokuapp.com/',
             imgSource: 'tech-blog.jpeg'
+        },
+        {
+            name: 'Team Profile Generator',
+            link: 'https://github.com/NYX1122/team-profile-generator',
+            imgSource: 'team-profile-generator.jpg'
+        },
+        {
+            name: 'Employee Tracker',
+            link: 'https://github.com/NYX1122/employee-tracker',
+            imgSource: 'employee-tracker.jpg'
+        },
+        {
+            name: 'Budget Tracker',
+            link: 'https://still-shelf-61275.herokuapp.com/',
+            imgSource: 'budget-tracker.jpg'
         }
     ];
 
@@ -22,6 +37,7 @@ function Portfolio() {
                     name={site.name}
                     link={site.link}
                     imgSource={site.imgSource}
+                    order={`card-${i}`}
                 >
                 </PortfolioCard>
             ))}

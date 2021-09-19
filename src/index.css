@@ -180,7 +180,8 @@ nav a:hover {
 /* portfolio component styling */
 .card-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .portfolio-card-link {
@@ -205,12 +206,29 @@ nav a:hover {
   transition: .4s color, background-color .4s, border-color .4s, filter .4s;
 }
 
+div[order="card-1"], div[order='card-4'] {
+  justify-content: center;
+}
+
+div[order="card-2"] {
+  justify-content: end;
+}
+
 .portfolio-card img {
   flex-basis: 100%;
   max-width: 100%;
   border: 8px solid var(--purple-dark);
   border-radius: 0 25px 25px 25px;
   transition: .4s filter, color .4s, border-color .4s;
+}
+
+div[order="card-1"] img, div[order='card-4'] img {
+  border-top-left-radius: 25px;
+}
+
+div[order="card-2"] img {
+  border-top-left-radius: 25px;
+  border-top-right-radius: 0;
 }
 
 .portfolio-card:hover h4 {
