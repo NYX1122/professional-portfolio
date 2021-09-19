@@ -27,6 +27,11 @@ function Portfolio() {
             name: 'Budget Tracker',
             link: 'https://still-shelf-61275.herokuapp.com/',
             imgSource: 'budget-tracker.jpg'
+        },
+        {
+            name: 'Weather Dashboard',
+            link: 'https://nyx1122.github.io/weather-dashboard/',
+            imgSource: 'weather-dashboard.jpg'
         }
     ];
 
