@@ -39,6 +39,8 @@ body {
   justify-content: space-between;
 }
 
+
+/* nav component styling */
 header {
   padding: 0 30px 0;
   display: flex;
@@ -100,6 +102,8 @@ nav a:hover {
   color: var(--middle-gray);
 }
 
+
+/* about component styling */
 .about {
   align-self: center;
   width: 60%;
@@ -172,6 +176,57 @@ nav a:hover {
   margin: 0;
 }
 
+
+/* portfolio component styling */
+.card-container {
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio-card-link {
+  text-decoration: none;
+  flex-basis: 30%;
+}
+
+.portfolio-card {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portfolio-card h4 {
+  align-self: center;
+  color: var(--peach);
+  background-color: var(--purple-dark);
+  font-size: 150%;
+  margin: 0;
+  border: 8px solid var(--purple-dark);
+  border-bottom: 0;
+  border-radius: 25px 25px 0 0;
+  transition: .4s color, background-color .4s, border-color .4s, filter .4s;
+}
+
+.portfolio-card img {
+  flex-basis: 100%;
+  max-width: 100%;
+  border: 8px solid var(--purple-dark);
+  border-radius: 0 25px 25px 25px;
+  transition: .4s filter, color .4s, border-color .4s;
+}
+
+.portfolio-card:hover h4 {
+  color: var(--purple-dark);
+  background-color: var(--peach);
+  border-color: var(--peach);
+  filter: opacity(0.5) drop-shadow(0 0 0 var(--peach));
+}
+
+.portfolio-card:hover img {
+  filter: opacity(0.5) drop-shadow(0 0 0 var(--peach));
+  color: var(--purple-dark);
+  border-color: var(--peach);
+}
+
+/* footer component styling */
 .footer {
   display: flex;
   justify-content: space-around;
