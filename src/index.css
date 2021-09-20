@@ -94,7 +94,7 @@ nav a {
   font-size: 250%;
   padding: 0 25px 0;
   border-radius: 15px;
-  transition: .4s background-color;
+  transition: .4s background-color, .4s color;
 }
 
 nav a:hover {
@@ -102,9 +102,13 @@ nav a:hover {
   color: var(--middle-gray);
 }
 
+nav a:focus {
+  box-shadow: 0 0 5px 2px var(--peach);
+}
 
-/* about component styling */
-.about {
+
+/* about / contact component styling */
+.about, .contact {
   align-self: center;
   width: 60%;
   display: flex;
@@ -117,7 +121,7 @@ nav a:hover {
   border-radius: 30px;
 }
 
-.about h2 {
+.about h2, .contact h2 {
   font-size: 500%;
   color: var(--pale-green);
   margin: 0;
@@ -243,6 +247,91 @@ div[order="card-2"] img, div[order='card-5'] img {
   filter: opacity(0.5) drop-shadow(0 0 0 var(--peach));
   color: var(--purple-dark);
   border-color: var(--peach);
+}
+
+
+/* contact component styling */
+.contact {
+  width: 30%;
+  margin: 0;
+}
+
+.contact h2 {
+  font-size: 300%;
+  align-self: flex-start;
+  margin-bottom: 10px;
+  background-color: var(--peach);
+  color: var(--purple-dark);
+  border: 0px solid var(--peach);
+  border-radius: 0 0 25px 25px;
+}
+
+.contact form {
+  flex-basis: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.contact form div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8px;
+}
+
+.contact label {
+  font-size: 150%;
+  color: var(--peach);
+}
+
+.contact input {
+  border: none;
+  font-size: 150%;
+  color: var(--dark);
+  border: 4px solid var(--peach);
+  border-radius: 10px;
+  width: 60%;
+}
+
+.contact input:focus {
+  outline: none;
+  box-shadow: 0 0 5px 2px var(--peach);
+}
+
+.contact textarea {
+  border: none;
+  font-size: 150%;
+  color: var(--dark);
+  border: 4px solid var(--peach);
+  border-radius: 10px;
+}
+
+.contact textarea:focus {
+  outline: none;
+  box-shadow: 0 0 5px 2px var(--peach);
+}
+
+.contact button {
+  border: none;
+  font-size: 150%;
+  background-color: var(--middle-gray);
+  color: var(--peach);
+  border: 4px solid var(--peach);
+  border-radius: 10px;
+  margin-top: 5px;
+  cursor: pointer;
+  transition: .4s background-color, .4s border-color, .4s color;
+}
+
+.contact button:hover {
+  background-color: var(--peach);
+  border-color: var(--middle-gray);
+  color: var(--middle-gray);
+}
+
+.contact button:focus {
+  box-shadow: 0 0 5px 2px var(--peach);
 }
 
 /* footer component styling */
