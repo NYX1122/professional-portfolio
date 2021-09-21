@@ -4,9 +4,9 @@ import ResumeItem from '../ResumeItem';
 function ResumeCategory({ category }) {
 
     return(
-        <div>
+        <div className='category'>
             <h3>{category.title}</h3>
-            {category.education.map(item => (
+            {category.items.map(item => (
                 <ResumeItem item={item}></ResumeItem>
             ))}
         </div>

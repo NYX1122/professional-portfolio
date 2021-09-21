@@ -10,7 +10,7 @@ function Resume() {
         // 'References'
         {
             title: 'Education',
-            education: [
+            items: [
                 {
                     header: 'University of Utah',
                     headerTwo: 'Full-stack Web Development Bootcamp',
@@ -30,12 +30,40 @@ function Resume() {
                     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
                 }
             ]
+        },
+        {
+            title: 'Career',
+            items: [
+                {
+                    header: 'COMPANY NAME',
+                    headerTwo: 'TITLE',
+                    time: 'XX/XXXX - XX/XXXX',
+                    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+                },
+                {
+                    header: 'COMPANY NAME',
+                    headerTwo: 'TITLE',
+                    time: 'XX/XXXX - XX/XXXX',
+                    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+                },
+                {
+                    header: 'COMPANY NAME',
+                    headerTwo: 'TITLE',
+                    time: 'XX/XXXX - XX/XXXX',
+                    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+                }
+            ]
         }
     ];
 
     return (
         <section className='resume'>
-            <h2>Resume</h2>
+            <h2 className='resume-title'>Resume</h2>
+            <div className='resume-header'>
+                <h2>BoDee Angus</h2>
+                <h2>|</h2>
+                <h2>Junior Full Stack Web Developer</h2>
+            </div>
             {categories.map(category => (
                 <ResumeCategory category={category}></ResumeCategory>
             ))}
