@@ -430,6 +430,28 @@ div[order="card-2"] img, div[order='card-5'] img {
   text-indent: 20px;
 }
 
+.skillset {
+  display: flex;
+  flex-direction: column;
+}
+
+.skillset h4 {
+  max-width: fit-content;
+}
+
+.skillset div {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.skillset div h5 {
+  margin-right: 10px;
+  background-color: var(--peach);
+  padding: 4px;
+  border-radius: 10px;
+}
+
 /* footer component styling */
 .footer {
   display: flex;
