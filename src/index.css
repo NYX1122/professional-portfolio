@@ -178,8 +178,12 @@ nav a:focus {
   font-size: 150%;
   color: var(--dark);
   margin: 0;
+  margin-bottom: 20px;
 }
 
+.indent {
+  margin-left: 40px;
+}
 
 /* portfolio component styling */
 .card-container {

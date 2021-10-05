@@ -19,7 +19,7 @@ function Contact() {
                 </div>
                 <div>
                     <label htmlFor='message'>Message:</label>
-                    <textArea name='message' rows='6' />
+                    <textarea name='message' rows='6' />
                 </div>
                 <button type='submit'>Submit</button>
             </form>

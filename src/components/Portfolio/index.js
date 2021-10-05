@@ -4,6 +4,11 @@ import PortfolioCard from '../PortfolioCard';
 function Portfolio() {
     const work = [
         {
+            name: 'CooKit',
+            link: 'https://cookit-book.herokuapp.com/',
+            imgSource: 'cookit.png'
+        },
+        {
             name: 'GoalGetter',
             link: 'https://goal-getters-app.herokuapp.com/',
             imgSource: 'goal-getter.png'
@@ -17,11 +22,6 @@ function Portfolio() {
             name: 'Team Profile Generator',
             link: 'https://github.com/NYX1122/team-profile-generator',
             imgSource: 'team-profile-generator.jpg'
-        },
-        {
-            name: 'Employee Tracker',
-            link: 'https://github.com/NYX1122/employee-tracker',
-            imgSource: 'employee-tracker.jpg'
         },
         {
             name: 'Budget Tracker',
