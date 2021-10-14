@@ -84,16 +84,16 @@ function Resume() {
                     set: ['React', 'Bootstrap', 'JQeury', 'Node', 'Express', 'Jest', 'Sequelize', 'Webpack']
                 },
                 {
-                    header: 'Database Systems',
-                    set: ['MySQL', 'MongoDB']
+                    header: 'Database Technologies',
+                    set: ['MySQL', 'MongoDB', 'Graphql', 'Apollo']
                 },
                 {
                     header: 'Proficiencies',
                     set: ['Agile Development', 'APIs', 'DOM Manipulation', 'Object-oriented Programming', 'MVC Paradigm', 'Progressive Web Applications', 'Algorithms / Benchmarking']
                 },
                 {
-                    header: 'Characteristics - according to my family and friends :)',
-                    set: ['Extroverted', 'Quick-thinking', 'Motivated', 'Energetic', 'Goal-oriented', 'Charismatic']
+                    header: 'Characteristics - according to my friends and family :)',
+                    set: ['Extroverted', 'Quick-thinking', 'Motivated', 'Energetic', 'Goal-oriented', 'Charismatic', 'Intelligent', 'Optimistic', 'Empathetic', 'Caring', 'Warm', 'Creative', 'Enthusiastic']
                 }
             ]
         }

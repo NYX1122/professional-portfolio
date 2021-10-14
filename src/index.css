@@ -57,6 +57,7 @@ header {
   margin: 0;
   border-radius: 0 0 30px 0;
   border: 10px solid var(--peach);
+  width: fit-content;
 }
 
 .name span { 
@@ -160,11 +161,15 @@ nav a:focus {
 .about-row-two div {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   background-color: var(--peach);
   padding: 10px;
   margin: 10px;
   border-radius: 30px;
+}
+
+.about-para {
+  height: fit-content;
 }
 
 .about-para h3 {
@@ -178,7 +183,6 @@ nav a:focus {
   font-size: 150%;
   color: var(--dark);
   margin: 0;
-  margin-bottom: 20px;
 }
 
 .indent {
@@ -374,6 +378,7 @@ div[order="card-2"] img, div[order='card-5'] img {
   font-size: 225%;
   color: var(--peach);
   margin: 0;
+  white-space: nowrap;
 }
 
 .category {
@@ -470,4 +475,343 @@ div[order="card-2"] img, div[order='card-5'] img {
 
 .icon-link:hover .icon {
   fill: var(--peach);
+}
+
+@media screen and (max-width: 1550px) {
+  .name {
+    font-size: 400%;
+    width: fit-content;
+  }
+
+  .about, .contact {
+    width: 65%;
+  }
+
+  .about h2, .contact h2 {
+    font-size: 400%;
+  }
+
+  .about-para h3 {
+    font-size: 175%;
+  }
+
+  .about-para p {
+    font-size: 145%;
+  }
+
+  .resume-title {
+    font-size: 215%;
+  }
+
+  .resume-header h2 {
+    font-size: 180%;
+  }
+
+  .category h3 {
+    font-size: 125%;
+  }
+
+  .item h4 {
+    font-size: 115%;
+  }
+
+  .item h5 {
+    font-size: 115%;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .name {
+    font-size: 275%;
+    white-space: nowrap;
+  }
+  
+  nav a {
+    font-size: 230%;
+    white-space: nowrap;
+    padding: 0 15px 0;
+  }
+
+  .about h2, .contact h2 {
+    font-size: 350%;
+  }
+
+  .about-para h3 {
+    font-size: 160%;
+  }
+
+  .about-para p {
+    font-size: 135%;
+  }
+
+  .portfolio-card-link {
+    flex-basis: 45%;
+  }
+
+  div[order="card-1"], div[order='card-3'] {
+    justify-content: end;
+  }
+
+  div[order="card-1"] img, div[order='card-3'] img {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 0px;
+  }
+
+  div[order="card-2"], div[order='card-4'] {
+    justify-content: start;
+  }
+
+  div[order="card-2"] img, div[order='card-4'] img {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 25px;
+  }
+
+  .resume {
+    max-width: 63%;
+  }
+
+  .resume-title {
+    font-size: 200%;
+  }
+
+  .resume-header h2 {
+    font-size: 170%;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .name {
+    padding: 0 5px 0;
+    font-size: 240%;
+    border: 7px solid var(--peach);
+  }
+  
+  nav {
+    flex-basis: 100%;
+  }
+
+  nav a {
+    padding: 0 5px 0;
+    font-size: 180%;
+  }
+
+  .about, .contact {
+    width: 75%;
+    border: 7px solid var(--peach);
+  }
+
+  .about h2, .contact h2 {
+    font-size: 310%;
+  }
+
+  .about-para h3 {
+    font-size: 140%;
+  }
+
+  .about-para p {
+    font-size: 125%;
+  }
+
+  .portfolio-card-link {
+    flex-basis: 80%;
+  }
+
+  div[order="card-0"], div[order='card-1'], div[order="card-2"], div[order='card-3'], div[order="card-4"], div[order='card-5'] {
+    justify-content: center;
+  }
+
+  div[order="card-0"] img, div[order='card-1'] img, div[order="card-2"] img, div[order='card-3'] img, div[order="card-4"] img, div[order='card-5'] img {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+
+  .resume {
+    max-width: 75%;
+  }
+
+  .item h5 {
+    margin-bottom: 5px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .name {
+    border-bottom-left-radius: 30px;
+    font-size: 275%;
+  }
+
+  nav ul {
+    margin-bottom: 0px;
+  }
+
+  nav a {
+    font-size: 225%;
+  }
+
+  .about, .contact {
+    margin-top: 20px;
+  }
+
+  .about h2, .contact h2 {
+    font-size: 250%;
+  }
+
+  .about-row-one {
+    margin: 5px;
+  }
+
+  .about-row-two {
+    flex-direction: column;
+  }
+
+  .about-row-two div {
+    margin: 5px;
+  }
+
+  .about-para h3 {
+    font-size: 130%;
+  }
+
+  .about-para p {
+    font-size: 115%;
+  }
+
+  .portfolio-card {
+    margin-top: 15px;
+  }
+
+  .contact {
+    margin-top: 0px;
+  }
+
+  .contact h2 {
+    font-size: 215%;
+  }
+
+  .resume {
+    max-width: 85%;
+    padding: 0 20px 20px;
+  }
+
+  .resume-header h2 {
+    font-size: 135%;
+  }
+
+  .item h5 {
+    white-space: nowrap;
+    font-size: 105%;
+  }
+
+  .item p {
+    font-size: 100%;
+  }
+
+  .footer {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  nav {
+    margin: 0px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav li {
+    width: 100%;
+    justify-content: center;
+  }
+
+  nav a {
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+    border: 5px solid var(--peach);
+    margin: 2px 0;
+    font-size: 150%;
+  }
+
+  .about, .contact {
+    padding: 0 10px 10px;
+    width: 85%;
+  }
+
+  .about h2, .contact h2 {
+    font-size: 200%;
+  }
+
+  .about-para h3 {
+    font-size: 115%;
+  }
+
+  .about-para p {
+    font-size: 100%;
+  }
+
+  .portfolio-card h4 {
+    font-size: 135%;
+  }
+
+  .portfolio-card-link {
+    flex-basis: 100%;
+  }
+
+  .portfolio-card img {
+    border: 5px solid var(--purple-dark);
+    border-radius: 0px;
+  }
+
+  .contact {
+    margin-top: 20px;
+  }
+
+  .contact label {
+    font-size: 130%;
+  }
+
+  .contact input {
+    font-size: 130%;
+  }
+
+  .resume {
+    max-width: 100%;
+    padding: 0 10px 10px;
+  }
+
+  .resume-title {
+    font-size: 170%;
+  }
+
+  .resume-header h2 {
+    font-size: 98%;
+  }
+
+  .item h4 {
+    font-size: 100%;
+  }
+
+  .item h5 {
+    font-size: 74%;
+  }
+
+  .item p {
+    font-size: 70%;
+  }
+
+  .footer {
+    justify-content: space-between;
+  }
+
+  svg {
+    width: 60px;
+  }
 }
