@@ -54,7 +54,7 @@ function About() {
                             Currently I am hoping to join the web development workforce so that I may finally begin to gain proper work experience and expand my web-dev
                             skills. After I find a job, I also want to continue my secondary education to acheive a bachelors in Computer Science, while minoring in web
                             development. I am very passionate about acheiving the goals I set out for myself, and as such any employer that allows me the opportunity to
-                            work will see that I am a hard-working and diligent employee who will strive for a positive and proffessional work environment.
+                            work will see that I am a hard-working and diligent employee who will strive for a positive and professional work environment.
                         </p>
                     </div>
                 </div>
