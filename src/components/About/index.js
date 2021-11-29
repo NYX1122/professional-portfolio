@@ -5,7 +5,6 @@ function About() {
         <section className='about'>
             <h2>About Me</h2>
                 <div className='about-row-one'>
-                    {/* <img src={require('../../assets/images/profile-photo.jpg').default}></img> */}
                     <div className='about-para'>
                         <h3>Background</h3>
                         <p>
@@ -48,14 +47,17 @@ function About() {
                             the fast food service industry in order to better serve customers as an employee, and to coordinate my team more effectively as a manager.)
                         </p>
                     </div>
-                    <div className='about-para'>
-                        <h3>Future Goals</h3>
-                        <p><span className={'indent'}></span>
-                            Currently I am hoping to join the web development workforce so that I may finally begin to gain proper work experience and expand my web-dev
-                            skills. After I find a job, I also want to continue my secondary education to acheive a bachelors in Computer Science, while minoring in web
-                            development. I am very passionate about acheiving the goals I set out for myself, and as such any employer that allows me the opportunity to
-                            work will see that I am a hard-working and diligent employee who will strive for a positive and professional work environment.
-                        </p>
+                    <div className='container-one'>
+                        <img className='profile' src={require('../../assets/images/profile-photo.JPEG').default}></img>
+                        <div className='about-para'>
+                            <h3>Future Goals</h3>
+                            <p><span className={'indent'}></span>
+                                Currently I am hoping to join the web development workforce so that I may finally begin to gain proper work experience and expand my web-dev
+                                skills. After I find a job, I also want to continue my secondary education to acheive a bachelors in Computer Science, while minoring in web
+                                development. I am very passionate about acheiving the goals I set out for myself, and as such any employer that allows me the opportunity to
+                                work will see that I am a hard-working and diligent employee who will strive for a positive and professional work environment.
+                            </p>
+                        </div>
                     </div>
                 </div>
         </section>
