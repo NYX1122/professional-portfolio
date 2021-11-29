@@ -1,32 +1,32 @@
 {
   "files": {
-    "main.css": "/professional-portfolio/static/css/main.71d11ec9.chunk.css",
-    "main.js": "/professional-portfolio/static/js/main.188f43fc.chunk.js",
-    "main.js.map": "/professional-portfolio/static/js/main.188f43fc.chunk.js.map",
+    "main.css": "/professional-portfolio/static/css/main.cf2a7e24.chunk.css",
+    "main.js": "/professional-portfolio/static/js/main.4995bbc1.chunk.js",
+    "main.js.map": "/professional-portfolio/static/js/main.4995bbc1.chunk.js.map",
     "runtime-main.js": "/professional-portfolio/static/js/runtime-main.22f4b6f6.js",
     "runtime-main.js.map": "/professional-portfolio/static/js/runtime-main.22f4b6f6.js.map",
-    "static/js/2.217cdf0a.chunk.js": "/professional-portfolio/static/js/2.217cdf0a.chunk.js",
-    "static/js/2.217cdf0a.chunk.js.map": "/professional-portfolio/static/js/2.217cdf0a.chunk.js.map",
+    "static/js/2.5feb5fa8.chunk.js": "/professional-portfolio/static/js/2.5feb5fa8.chunk.js",
+    "static/js/2.5feb5fa8.chunk.js.map": "/professional-portfolio/static/js/2.5feb5fa8.chunk.js.map",
     "static/js/3.6483b086.chunk.js": "/professional-portfolio/static/js/3.6483b086.chunk.js",
     "static/js/3.6483b086.chunk.js.map": "/professional-portfolio/static/js/3.6483b086.chunk.js.map",
     "index.html": "/professional-portfolio/index.html",
-    "static/css/main.71d11ec9.chunk.css.map": "/professional-portfolio/static/css/main.71d11ec9.chunk.css.map",
-    "static/js/2.217cdf0a.chunk.js.LICENSE.txt": "/professional-portfolio/static/js/2.217cdf0a.chunk.js.LICENSE.txt",
+    "static/css/main.cf2a7e24.chunk.css.map": "/professional-portfolio/static/css/main.cf2a7e24.chunk.css.map",
+    "static/js/2.5feb5fa8.chunk.js.LICENSE.txt": "/professional-portfolio/static/js/2.5feb5fa8.chunk.js.LICENSE.txt",
     "static/media/index.css": "/professional-portfolio/static/media/Cabin-VariableFont_wdth,wght.68985814.ttf",
     "static/media/budget-tracker.jpg": "/professional-portfolio/static/media/budget-tracker.55d79623.jpg",
     "static/media/cookit.png": "/professional-portfolio/static/media/cookit.719a7b39.png",
     "static/media/employee-tracker.jpg": "/professional-portfolio/static/media/employee-tracker.581bd8d4.jpg",
     "static/media/goal-getter.png": "/professional-portfolio/static/media/goal-getter.c94109af.png",
     "static/media/nav-background.jpg": "/professional-portfolio/static/media/nav-background.191733ae.jpg",
-    "static/media/profile-photo.jpg": "/professional-portfolio/static/media/profile-photo.f1cf3a32.jpg",
+    "static/media/profile-photo.JPEG": "/professional-portfolio/static/media/profile-photo.cf443843.JPEG",
     "static/media/team-profile-generator.jpg": "/professional-portfolio/static/media/team-profile-generator.66f9247d.jpg",
     "static/media/tech-blog.jpeg": "/professional-portfolio/static/media/tech-blog.55baf41f.jpeg",
     "static/media/weather-dashboard.jpg": "/professional-portfolio/static/media/weather-dashboard.29be326b.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.22f4b6f6.js",
-    "static/js/2.217cdf0a.chunk.js",
-    "static/css/main.71d11ec9.chunk.css",
-    "static/js/main.188f43fc.chunk.js"
+    "static/js/2.5feb5fa8.chunk.js",
+    "static/css/main.cf2a7e24.chunk.css",
+    "static/js/main.4995bbc1.chunk.js"
   ]
 }
