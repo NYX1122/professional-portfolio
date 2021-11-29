@@ -207,6 +207,39 @@ nav a:focus {
   margin-top: 20px;
 }
 
+.container {
+  position: relative;
+}
+
+.container img {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.link-buttons {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  justify-content: space-between;
+  width: 65%;
+  display: flex;
+  visibility: hidden;
+  opacity: 0;
+  transition: .4s;
+}
+
+.link-buttons a button {
+  background-color: var(--pale-green);
+  border: none;
+  border-radius: 10px;
+  font-size: 175%;
+  font-weight: bold;
+  color: var(--purple-dark);
+  transition: .4s color, background-color .4s;
+}
+
 .portfolio-card h4 {
   align-self: center;
   color: var(--peach);
@@ -257,6 +290,16 @@ div[order="card-2"] img, div[order='card-5'] img {
   border-color: var(--peach);
 }
 
+.portfolio-card:hover img + .link-buttons {
+  visibility: visible;
+  opacity: 1;
+}
+
+.link-buttons a button:hover {
+  color: var(--pale-green);
+  background-color: var(--purple-dark);
+  cursor: pointer;
+}
 
 /* contact component styling */
 .contact {
@@ -809,6 +852,10 @@ div[order="card-2"] img, div[order='card-5'] img {
   .portfolio-card img {
     border: 5px solid var(--purple-dark);
     border-radius: 0px;
+  }
+
+  .link-buttons a button {
+    font-size: 125%;
   }
 
   .contact {

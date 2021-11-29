@@ -15,6 +15,8 @@ function Header({ selected, setSelected }) {
             case 'Resume':
                 setSelected('resume');
                 break;
+            default:
+                setSelected('about');
         }
     }
 
